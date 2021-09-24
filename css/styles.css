@@ -1,0 +1,71 @@
+body{
+    background-image: url("../images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    justify-content: center;
+    font-family: "Red+Hat+Display",serif; 
+}
+
+.container{
+    width: 450px;
+
+    /* display: flex; */
+    justify-content: center;
+    align-content: center; 
+}
+
+.dancing-lady{
+    display: inline-block;
+    /* justify-content: center; */
+    border-radius: 40px 40px 0 0;
+}
+.image-1{
+    border-radius: 40px 40px 0 0;
+}
+.order-summary{
+    width: 100%;
+    margin: auto auto 0 auto;
+    background-color: white;
+    border-radius: 0 0 40px 40px;
+
+}
+
+h1{
+    font-weight: 900;
+    font-family: "Red Hat Display",serif; 
+    width: 100%;
+    margin: auto auto 1em auto;
+    text-align: center;
+    padding: 1em 0 0 0;
+}
+.order-tag{
+    width: 70%;
+    margin: 1em auto 1em auto;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+}
+.annual-button{
+    background-color: hsl(225, 100%, 98%);
+    width: 80%;
+    border-radius: 5px;
+    padding: 1em; 
+    margin: 1em auto 1em auto;
+
+}
+.payment-btn{
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 5px;
+    text-align: center;
+    width: 80%;
+    margin: 1em auto 1em auto;
+    padding: 1em;
+    
+}
+.cancel-btn{
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+    padding: 2em;
+}
